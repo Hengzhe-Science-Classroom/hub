@@ -25,8 +25,7 @@ en: {
     "hero.title1": "Hengzhe's",
     "hero.title2": "Science Classroom",
     "hero.subtitle": "From elementary curiosity to research frontiers — interactive, visualization-driven science education for everyone.",
-    "hero.cta.primary": "Explore Linear Algebra →",
-    "hero.cta.secondary": "View Full Roadmap",
+    "hero.cta.start": "Start Exploring",
 
     // Stats
     "stats.courses": "Courses Planned",
@@ -361,8 +360,7 @@ zh: {
     "hero.title1": "恒哲的",
     "hero.title2": "科学教室",
     "hero.subtitle": "从童年好奇到科研前沿 — 面向所有人的交互式可视化科学教育。",
-    "hero.cta.primary": "探索线性代数 →",
-    "hero.cta.secondary": "查看完整路线图",
+    "hero.cta.start": "开始探索",
 
     // Stats
     "stats.courses": "规划课程",
