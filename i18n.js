@@ -21,7 +21,7 @@ en: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "3 courses live — 86 more planned",
+    "hero.badge": "3 courses live — 89 more planned",
     "hero.title1": "Hengzhe's",
     "hero.title2": "Science Classroom",
     "hero.subtitle": "From elementary curiosity to research frontiers — interactive, visualization-driven science education for everyone.",
@@ -195,6 +195,10 @@ en: {
     "tier4.math.7.author": "Evans",
     "tier4.math.8.title": "Probability & Statistics",
     "tier4.math.8.author": "Casella & Berger",
+    "tier4.math.9.title": "Statistical Modeling",
+    "tier4.math.9.author": "Dobson / McCullagh & Nelder",
+    "tier4.math.10.title": "Causal Inference",
+    "tier4.math.10.author": "Imbens & Rubin / Pearl",
 
     // Tier 4 - Computer Science
     "tier4.cs.name": "Computer Science",
@@ -257,6 +261,8 @@ en: {
     "tier5.math.6.author": "Apostol",
     "tier5.math.7.title": "Representation Theory",
     "tier5.math.7.author": "Fulton & Harris",
+    "tier5.math.8.title": "High-Dimensional Statistics",
+    "tier5.math.8.author": "Wainwright / Vershynin",
 
     // Tier 5 - Computer Science
     "tier5.cs.name": "Computer Science",
@@ -356,7 +362,7 @@ zh: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "3门课程已上线 — 另有86门规划中",
+    "hero.badge": "3门课程已上线 — 另有89门规划中",
     "hero.title1": "恒哲的",
     "hero.title2": "科学教室",
     "hero.subtitle": "从童年好奇到科研前沿 — 面向所有人的交互式可视化科学教育。",
@@ -530,6 +536,10 @@ zh: {
     "tier4.math.7.author": "Evans",
     "tier4.math.8.title": "概率与统计",
     "tier4.math.8.author": "Casella & Berger",
+    "tier4.math.9.title": "统计建模",
+    "tier4.math.9.author": "Dobson / McCullagh & Nelder",
+    "tier4.math.10.title": "因果推断",
+    "tier4.math.10.author": "Imbens & Rubin / Pearl",
 
     // Tier 4 - Computer Science
     "tier4.cs.name": "计算机科学",
@@ -592,6 +602,8 @@ zh: {
     "tier5.math.6.author": "Apostol",
     "tier5.math.7.title": "表示论",
     "tier5.math.7.author": "Fulton & Harris",
+    "tier5.math.8.title": "高维统计",
+    "tier5.math.8.author": "Wainwright / Vershynin",
 
     // Tier 5 - Computer Science
     "tier5.cs.name": "计算机科学",

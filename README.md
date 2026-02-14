@@ -32,7 +32,7 @@ Every course features:
 | [HZ-advanced-linear-algebra](https://github.com/Hengzhe-Science-Classroom/HZ-advanced-linear-algebra) | Advanced Linear Algebra — Roman GTM 135 (20 chapters, 294 visualizations, 380 exercises) |
 | [HZ-real-analysis](https://github.com/Hengzhe-Science-Classroom/HZ-real-analysis) | Real Analysis I — Rudin / Tao (11 chapters, 100 visualizations, 294 exercises) |
 
-## 89 Courses Planned
+## 92 Courses Planned
 
 See the full roadmap on the [website](https://hengzhe-science-classroom.github.io/hub/#journey).
 
