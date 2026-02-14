@@ -8,8 +8,8 @@
 
 | Course | Level | Link |
 |--------|-------|------|
-| Fun Arithmetic & Number Sense | Tier 1 · Foundation | [Open App](https://hengzhe-science-classroom.github.io/HZ-fun-arithmetic/) |
-| Advanced Linear Algebra (Roman GTM 135) | Tier 4 · Graduate | [Open App](https://hengzhe-science-classroom.github.io/HZ-advanced-linear-algebra/) |
+| Fun Arithmetic & Number Sense | Tier 1 · Foundation | [Open the App](https://hengzhe-science-classroom.github.io/HZ-fun-arithmetic/) |
+| Advanced Linear Algebra (Roman GTM 135) | Tier 4 · Graduate | [Open the App](https://hengzhe-science-classroom.github.io/HZ-advanced-linear-algebra/) |
 
 ## What Is This?
 
