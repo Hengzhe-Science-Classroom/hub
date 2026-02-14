@@ -14,7 +14,7 @@ en: {
     "meta.description": "From elementary school to the research frontier — interactive science education with visualizations for Math, CS, Physics & Chemistry",
 
     // Navigation
-    "nav.logo": "HSC",
+    "nav.home": "Home",
     "nav.journey": "Journey",
     "nav.features": "Features",
     "nav.vision": "Vision",
@@ -349,7 +349,7 @@ zh: {
     "meta.description": "从小学到科研前沿 — 数学、计算机、物理与化学的交互式可视化教育",
 
     // Navigation
-    "nav.logo": "HSC",
+    "nav.home": "首页",
     "nav.journey": "学习之旅",
     "nav.features": "教学特色",
     "nav.vision": "愿景",

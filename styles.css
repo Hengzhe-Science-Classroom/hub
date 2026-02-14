@@ -53,7 +53,7 @@ body {
     z-index: 100;
     padding: 16px 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     backdrop-filter: blur(20px);
     background: rgba(10,10,15,0.7);
@@ -63,15 +63,6 @@ body {
 .nav.scrolled {
     padding: 12px 40px;
     background: rgba(10,10,15,0.9);
-}
-.nav-logo {
-    font-size: 18px;
-    font-weight: 700;
-    background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    letter-spacing: -0.02em;
 }
 .nav-links { display: flex; gap: 32px; }
 .nav-links a {
@@ -98,13 +89,13 @@ body {
 .hero {
     position: relative;
     z-index: 1;
-    min-height: 70vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 120px 40px 60px;
+    padding: 140px 40px 80px;
 }
 .hero-badge {
     display: inline-flex;
@@ -216,6 +207,27 @@ body {
     border-bottom: 1px solid var(--glass-border);
     background: var(--glass);
     backdrop-filter: blur(20px);
+}
+.stats-bar-top {
+    position: fixed;
+    top: 52px;
+    left: 0; right: 0;
+    z-index: 99;
+    padding: 14px 40px;
+    gap: 48px;
+    background: rgba(10,10,15,0.85);
+    border-top: none;
+}
+.nav.scrolled ~ .stats-bar-top,
+.stats-bar-top.scrolled {
+    padding: 10px 40px;
+}
+.stats-bar-top .stat-value {
+    font-size: 22px;
+}
+.stats-bar-top .stat-label {
+    font-size: 11px;
+    margin-top: 2px;
 }
 .stat {
     text-align: center;
@@ -661,6 +673,9 @@ body {
     .tier-name { font-size: 18px; }
     .features-grid { grid-template-columns: 1fr; }
     .stats-bar { gap: 24px; padding: 32px 20px; }
+    .stats-bar-top { padding: 10px 16px; gap: 20px; top: 48px; }
+    .stats-bar-top .stat-value { font-size: 18px; }
+    .stats-bar-top .stat-label { font-size: 10px; }
     .stat-value { font-size: 32px; }
     .orbit-container { width: 300px; height: 300px; }
     .orbit-center { width: 70px; height: 70px; font-size: 11px; }
