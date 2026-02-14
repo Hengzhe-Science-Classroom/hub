@@ -20,6 +20,7 @@
         <a href="#features">Features</a>
         <a href="#vision">Vision</a>
         <a href="https://github.com/Hengzhe-Science-Classroom" target="_blank">GitHub</a>
+        <button class="lang-toggle" id="lang-toggle">中文</button>
     </div>
 </nav>
 
@@ -27,22 +28,22 @@
 <section class="hero">
     <div class="hero-badge">
         <span class="pulse"></span>
-        1 course live &mdash; 88 more planned
+        <span data-i18n="hero.badge">1 course live &mdash; 88 more planned</span>
     </div>
     <h1>
-        <span class="gradient-text">Hengzhe's</span><br>
-        Science Classroom
+        <span class="gradient-text" data-i18n="hero.title1">Hengzhe's</span><br>
+        <span data-i18n="hero.title2">Science Classroom</span>
     </h1>
-    <p class="hero-subtitle">
+    <p class="hero-subtitle" data-i18n="hero.subtitle">
         From elementary curiosity to research frontiers &mdash;
         interactive, visualization-driven science education for everyone.
     </p>
     <div class="hero-cta">
         <a href="https://hengzhe-science-classroom.github.io/HZ-math-tuto-viz/" class="btn btn-primary" target="_blank">
-            Explore Linear Algebra &rarr;
+            <span data-i18n-html="hero.cta.primary">Explore Linear Algebra &rarr;</span>
         </a>
         <a href="#journey" class="btn btn-secondary">
-            View Full Roadmap
+            <span data-i18n="hero.cta.secondary">View Full Roadmap</span>
         </a>
     </div>
 </section>
@@ -51,32 +52,32 @@
 <div class="stats-bar">
     <div class="stat">
         <div class="stat-value" data-target="89">0</div>
-        <div class="stat-label">Courses Planned</div>
+        <div class="stat-label" data-i18n="stats.courses">Courses Planned</div>
     </div>
     <div class="stat">
         <div class="stat-value" data-target="5">0</div>
-        <div class="stat-label">Tiers</div>
+        <div class="stat-label" data-i18n="stats.tiers">Tiers</div>
     </div>
     <div class="stat">
         <div class="stat-value" data-target="4">0</div>
-        <div class="stat-label">Disciplines</div>
+        <div class="stat-label" data-i18n="stats.disciplines">Disciplines</div>
     </div>
     <div class="stat">
         <div class="stat-value" data-target="294" data-suffix="+">0</div>
-        <div class="stat-label">Visualizations (so far)</div>
+        <div class="stat-label" data-i18n="stats.visualizations">Visualizations (so far)</div>
     </div>
 </div>
 
 <!-- Journey / Tiers -->
 <section id="journey" class="section">
     <div class="section-header">
-        <div class="section-tag">The Journey</div>
-        <h2 class="section-title">From Curiosity to Frontier</h2>
-        <p class="section-desc">Five tiers of science education. Every concept gets the interactive treatment it deserves.</p>
+        <div class="section-tag" data-i18n="journey.tag">The Journey</div>
+        <h2 class="section-title" data-i18n="journey.title">From Curiosity to Frontier</h2>
+        <p class="section-desc" data-i18n="journey.desc">Five tiers of science education. Every concept gets the interactive treatment it deserves.</p>
     </div>
 
     <!-- Tier 1: Foundation -->
-    <div class="tier" data-tier="foundation">
+    <div class="tier" data-tier="foundation" data-i18n-tier="tier1">
         <div class="tier-header">
             <div class="tier-badge tier-foundation">TIER 1</div>
             <div class="tier-info">
@@ -85,7 +86,7 @@
             </div>
         </div>
         <div class="tier-grid">
-            <div class="discipline-card" data-color="blue">
+            <div class="discipline-card" data-color="blue" data-i18n-disc="math">
                 <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
                 <div class="discipline-name">Mathematics</div>
                 <div class="textbook-list">
@@ -96,7 +97,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F522;</span><div class="textbook-info"><div class="textbook-title">Intro to Number Theory</div><div class="textbook-author">Primes, factors, GCD, LCM</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="green">
+            <div class="discipline-card" data-color="green" data-i18n-disc="phys">
                 <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
                 <div class="discipline-name">Physics</div>
                 <div class="textbook-list">
@@ -107,7 +108,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x26A1;</span><div class="textbook-info"><div class="textbook-title">Energy &amp; Conservation</div><div class="textbook-author">KE, PE, energy transfers, simple machines</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="orange">
+            <div class="discipline-card" data-color="orange" data-i18n-disc="chem">
                 <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
                 <div class="discipline-name">Chemistry</div>
                 <div class="textbook-list">
@@ -121,7 +122,7 @@
     </div>
 
     <!-- Tier 2: High School -->
-    <div class="tier" data-tier="highschool">
+    <div class="tier" data-tier="highschool" data-i18n-tier="tier2">
         <div class="tier-header">
             <div class="tier-badge tier-highschool">TIER 2</div>
             <div class="tier-info">
@@ -130,7 +131,7 @@
             </div>
         </div>
         <div class="tier-grid">
-            <div class="discipline-card" data-color="blue">
+            <div class="discipline-card" data-color="blue" data-i18n-disc="math">
                 <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
                 <div class="discipline-name">Mathematics</div>
                 <div class="textbook-list">
@@ -141,7 +142,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x2728;</span><div class="textbook-info"><div class="textbook-title">The Beauty of Mathematics</div><div class="textbook-author">Golden ratio, fractals, infinity, symmetry</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="green">
+            <div class="discipline-card" data-color="green" data-i18n-disc="phys">
                 <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
                 <div class="discipline-name">Physics</div>
                 <div class="textbook-list">
@@ -152,7 +153,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F52D;</span><div class="textbook-info"><div class="textbook-title">Intro to Modern Physics</div><div class="textbook-author">Relativity, quantum concepts, atomic models</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="orange">
+            <div class="discipline-card" data-color="orange" data-i18n-disc="chem">
                 <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
                 <div class="discipline-name">Chemistry</div>
                 <div class="textbook-list">
@@ -167,7 +168,7 @@
     </div>
 
     <!-- Tier 3: Undergraduate -->
-    <div class="tier" data-tier="undergrad">
+    <div class="tier" data-tier="undergrad" data-i18n-tier="tier3">
         <div class="tier-header">
             <div class="tier-badge tier-undergrad">TIER 3</div>
             <div class="tier-info">
@@ -176,7 +177,7 @@
             </div>
         </div>
         <div class="tier-grid tier-grid-4">
-            <div class="discipline-card" data-color="blue">
+            <div class="discipline-card" data-color="blue" data-i18n-disc="math">
                 <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
                 <div class="discipline-name">Mathematics</div>
                 <div class="textbook-list">
@@ -187,7 +188,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F3B2;</span><div class="textbook-info"><div class="textbook-title">Intro to Probability</div><div class="textbook-author">Blitzstein</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="purple">
+            <div class="discipline-card" data-color="purple" data-i18n-disc="cs">
                 <div class="discipline-icon" data-color="purple">&#x1F4BB;</div>
                 <div class="discipline-name">Computer Science</div>
                 <div class="textbook-list">
@@ -196,7 +197,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F5A5;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Computer Architecture</div><div class="textbook-author">Patterson &amp; Hennessy</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="green">
+            <div class="discipline-card" data-color="green" data-i18n-disc="phys">
                 <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
                 <div class="discipline-name">Physics</div>
                 <div class="textbook-list">
@@ -206,7 +207,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F52C;</span><div class="textbook-info"><div class="textbook-title">Modern Physics</div><div class="textbook-author">Krane</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="orange">
+            <div class="discipline-card" data-color="orange" data-i18n-disc="chem">
                 <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
                 <div class="discipline-name">Chemistry</div>
                 <div class="textbook-list">
@@ -218,7 +219,7 @@
     </div>
 
     <!-- Tier 4: Graduate -->
-    <div class="tier" data-tier="graduate">
+    <div class="tier" data-tier="graduate" data-i18n-tier="tier4">
         <div class="tier-header">
             <div class="tier-badge tier-graduate">TIER 4</div>
             <div class="tier-info">
@@ -227,7 +228,7 @@
             </div>
         </div>
         <div class="tier-grid tier-grid-4">
-            <div class="discipline-card" data-color="blue">
+            <div class="discipline-card" data-color="blue" data-i18n-disc="math">
                 <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
                 <div class="discipline-name">Mathematics</div>
                 <div class="textbook-list">
@@ -241,7 +242,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F3B2;</span><div class="textbook-info"><div class="textbook-title">Probability &amp; Statistics</div><div class="textbook-author">Casella &amp; Berger</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="purple">
+            <div class="discipline-card" data-color="purple" data-i18n-disc="cs">
                 <div class="discipline-icon" data-color="purple">&#x1F4BB;</div>
                 <div class="discipline-name">Computer Science</div>
                 <div class="textbook-list">
@@ -254,7 +255,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F3A8;</span><div class="textbook-info"><div class="textbook-title">Computer Graphics</div><div class="textbook-author">Fundamentals of CG</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="green">
+            <div class="discipline-card" data-color="green" data-i18n-disc="phys">
                 <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
                 <div class="discipline-name">Physics</div>
                 <div class="textbook-list">
@@ -265,7 +266,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F4D0;</span><div class="textbook-info"><div class="textbook-title">Mathematical Physics</div><div class="textbook-author">Arfken</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="orange">
+            <div class="discipline-card" data-color="orange" data-i18n-disc="chem">
                 <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
                 <div class="discipline-name">Chemistry</div>
                 <div class="textbook-list">
@@ -279,7 +280,7 @@
     </div>
 
     <!-- Tier 5: Frontier -->
-    <div class="tier" data-tier="frontier">
+    <div class="tier" data-tier="frontier" data-i18n-tier="tier5">
         <div class="tier-header">
             <div class="tier-badge tier-frontier">TIER 5</div>
             <div class="tier-info">
@@ -288,7 +289,7 @@
             </div>
         </div>
         <div class="tier-grid tier-grid-4">
-            <div class="discipline-card" data-color="blue">
+            <div class="discipline-card" data-color="blue" data-i18n-disc="math">
                 <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
                 <div class="discipline-name">Mathematics</div>
                 <div class="textbook-list">
@@ -301,7 +302,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F3AD;</span><div class="textbook-info"><div class="textbook-title">Representation Theory</div><div class="textbook-author">Fulton &amp; Harris</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="purple">
+            <div class="discipline-card" data-color="purple" data-i18n-disc="cs">
                 <div class="discipline-icon" data-color="purple">&#x1F4BB;</div>
                 <div class="discipline-name">Computer Science</div>
                 <div class="textbook-list">
@@ -312,7 +313,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F916;</span><div class="textbook-info"><div class="textbook-title">Deep Learning</div><div class="textbook-author">Goodfellow</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="green">
+            <div class="discipline-card" data-color="green" data-i18n-disc="phys">
                 <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
                 <div class="discipline-name">Physics</div>
                 <div class="textbook-list">
@@ -323,7 +324,7 @@
                     <div class="textbook-item"><span class="textbook-emoji">&#x1F30D;</span><div class="textbook-info"><div class="textbook-title">Cosmology</div><div class="textbook-author">Weinberg</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
-            <div class="discipline-card" data-color="orange">
+            <div class="discipline-card" data-color="orange" data-i18n-disc="chem">
                 <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
                 <div class="discipline-name">Chemistry</div>
                 <div class="textbook-list">
@@ -340,41 +341,41 @@
 <!-- Features -->
 <section id="features" class="section">
     <div class="section-header">
-        <div class="section-tag">Approach</div>
-        <h2 class="section-title">How We Teach</h2>
-        <p class="section-desc">Not exam prep. Not memorization. Pure understanding through interaction.</p>
+        <div class="section-tag" data-i18n="features.tag">Approach</div>
+        <h2 class="section-title" data-i18n="features.title">How We Teach</h2>
+        <p class="section-desc" data-i18n="features.desc">Not exam prep. Not memorization. Pure understanding through interaction.</p>
     </div>
 
     <div class="features-grid">
         <div class="feature-card">
             <div class="feature-icon">&#x1F3AF;</div>
-            <div class="feature-title">Interactive Visualizations</div>
-            <div class="feature-desc">Drag points, adjust sliders, watch animations. Abstract concepts become tangible through hands-on exploration.</div>
+            <div class="feature-title" data-i18n="features.1.title">Interactive Visualizations</div>
+            <div class="feature-desc" data-i18n="features.1.desc">Drag points, adjust sliders, watch animations. Abstract concepts become tangible through hands-on exploration.</div>
         </div>
         <div class="feature-card">
             <div class="feature-icon">&#x1F4A1;</div>
-            <div class="feature-title">Intuition First</div>
-            <div class="feature-desc">Build deep understanding before formalism. Every theorem starts with "why" before "how to prove."</div>
+            <div class="feature-title" data-i18n="features.2.title">Intuition First</div>
+            <div class="feature-desc" data-i18n="features.2.desc">Build deep understanding before formalism. Every theorem starts with "why" before "how to prove."</div>
         </div>
         <div class="feature-card">
             <div class="feature-icon">&#x2211;</div>
-            <div class="feature-title">Rigorous When Ready</div>
-            <div class="feature-desc">KaTeX-rendered math with full proofs. Rigor scales with the tier &mdash; from playful to publication-grade.</div>
+            <div class="feature-title" data-i18n="features.3.title">Rigorous When Ready</div>
+            <div class="feature-desc" data-i18n="features.3.desc">KaTeX-rendered math with full proofs. Rigor scales with the tier &mdash; from playful to publication-grade.</div>
         </div>
         <div class="feature-card">
             <div class="feature-icon">&#x1F331;</div>
-            <div class="feature-title">Learn at Any Age</div>
-            <div class="feature-desc">Five tiers from elementary school to research frontier. Start wherever you are, go as far as you want.</div>
+            <div class="feature-title" data-i18n="features.4.title">Learn at Any Age</div>
+            <div class="feature-desc" data-i18n="features.4.desc">Five tiers from elementary school to research frontier. Start wherever you are, go as far as you want.</div>
         </div>
         <div class="feature-card">
             <div class="feature-icon">&#x1F4C8;</div>
-            <div class="feature-title">Progress Tracking</div>
-            <div class="feature-desc">Your learning progress is saved locally. Pick up right where you left off, across sessions.</div>
+            <div class="feature-title" data-i18n="features.5.title">Progress Tracking</div>
+            <div class="feature-desc" data-i18n="features.5.desc">Your learning progress is saved locally. Pick up right where you left off, across sessions.</div>
         </div>
         <div class="feature-card">
             <div class="feature-icon">&#x1F310;</div>
-            <div class="feature-title">Free &amp; Open Source</div>
-            <div class="feature-desc">Everything is on GitHub. No accounts, no paywalls, no ads. Just open the link and start learning.</div>
+            <div class="feature-title" data-i18n="features.6.title">Free &amp; Open Source</div>
+            <div class="feature-desc" data-i18n="features.6.desc">Everything is on GitHub. No accounts, no paywalls, no ads. Just open the link and start learning.</div>
         </div>
     </div>
 </section>
@@ -382,13 +383,13 @@
 <!-- Vision / Orbit -->
 <section id="vision" class="orbit-section">
     <div class="section-header">
-        <div class="section-tag">Vision</div>
-        <h2 class="section-title">A Connected Universe</h2>
-        <p class="section-desc">Every discipline connects. From counting to cosmology, it's all one story.</p>
+        <div class="section-tag" data-i18n="vision.tag">Vision</div>
+        <h2 class="section-title" data-i18n="vision.title">A Connected Universe</h2>
+        <p class="section-desc" data-i18n="vision.desc">Every discipline connects. From counting to cosmology, it's all one story.</p>
     </div>
 
     <div class="orbit-container">
-        <div class="orbit-center">Science<br>Classroom</div>
+        <div class="orbit-center" data-i18n-html="vision.center">Science<br>Classroom</div>
 
         <div class="orbit-ring orbit-ring-1">
             <div class="orbit-node" data-color="blue" style="position:absolute; top:-24px; left:50%; margin-left:-24px;">
@@ -439,9 +440,10 @@
 
 <!-- Footer -->
 <footer class="footer">
-    <p>Built by Hengzhe &middot; <a href="https://github.com/Hengzhe-Science-Classroom" target="_blank">GitHub</a> &middot; Open Source &amp; Free Forever</p>
+    <p data-i18n-html="footer.text">Built by Hengzhe &middot; <a href="https://github.com/Hengzhe-Science-Classroom" target="_blank">GitHub</a> &middot; Open Source &amp; Free Forever</p>
 </footer>
 
+<script src="i18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

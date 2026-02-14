@@ -166,3 +166,111 @@ document.querySelectorAll('.nav-links a[href^="#"]').forEach(link => {
         if (target) target.scrollIntoView({ behavior: 'smooth' });
     });
 });
+
+// --- i18n Language Toggle ---
+const I18n = {
+    current: localStorage.getItem('hsc-lang') || 'en',
+
+    init() {
+        this.apply(this.current);
+        const btn = document.getElementById('lang-toggle');
+        if (btn) {
+            btn.addEventListener('click', () => {
+                this.current = this.current === 'en' ? 'zh' : 'en';
+                localStorage.setItem('hsc-lang', this.current);
+                this.apply(this.current);
+            });
+        }
+    },
+
+    t(key) {
+        const dict = window.I18N?.[this.current];
+        return dict?.[key] ?? key;
+    },
+
+    apply(lang) {
+        this.current = lang;
+        const dict = window.I18N?.[lang];
+        if (!dict) return;
+
+        // Update toggle button text
+        const btn = document.getElementById('lang-toggle');
+        if (btn) btn.textContent = lang === 'en' ? '中文' : 'EN';
+
+        // Apply all data-i18n elements
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            if (dict[key] !== undefined) {
+                // For elements that may contain HTML entities, use innerHTML for simple text
+                if (el.tagName === 'A' || el.querySelector('*')) {
+                    // Skip complex elements — handle them separately
+                } else {
+                    el.textContent = dict[key];
+                }
+            }
+        });
+
+        // Apply data-i18n-html (for elements needing innerHTML)
+        document.querySelectorAll('[data-i18n-html]').forEach(el => {
+            const key = el.getAttribute('data-i18n-html');
+            if (dict[key] !== undefined) el.innerHTML = dict[key];
+        });
+
+        // Textbook items: traverse tier structure
+        // Tier names/descs translate for all tiers
+        // Textbook titles/authors only translate for tiers 1 & 2 (Foundation & High School)
+        // Tiers 3+ (undergrad, graduate, frontier) keep English textbook details
+        const bilingualTiers = ['tier1', 'tier2'];
+
+        document.querySelectorAll('.tier').forEach(tierEl => {
+            const tierKey = tierEl.getAttribute('data-i18n-tier');
+            if (!tierKey) return;
+
+            // Tier name and desc — always translate
+            const nameEl = tierEl.querySelector('.tier-name');
+            const descEl = tierEl.querySelector('.tier-desc');
+            if (nameEl && dict[tierKey + '.name']) nameEl.textContent = dict[tierKey + '.name'];
+            if (descEl && dict[tierKey + '.desc']) descEl.textContent = dict[tierKey + '.desc'];
+
+            // Each discipline card within this tier
+            tierEl.querySelectorAll('.discipline-card').forEach(card => {
+                const discKey = card.getAttribute('data-i18n-disc');
+                if (!discKey) return;
+                const fullPrefix = tierKey + '.' + discKey;
+
+                // Discipline name — always translate
+                const dName = card.querySelector('.discipline-name');
+                if (dName && dict[fullPrefix + '.name']) dName.textContent = dict[fullPrefix + '.name'];
+
+                // Textbook items — only for bilingual tiers
+                if (bilingualTiers.includes(tierKey)) {
+                    card.querySelectorAll('.textbook-item').forEach((item, idx) => {
+                        const n = idx + 1;
+                        const titleEl = item.querySelector('.textbook-title');
+                        const authorEl = item.querySelector('.textbook-author');
+                        if (titleEl && dict[fullPrefix + '.' + n + '.title']) {
+                            titleEl.textContent = dict[fullPrefix + '.' + n + '.title'];
+                        }
+                        if (authorEl && dict[fullPrefix + '.' + n + '.author']) {
+                            authorEl.textContent = dict[fullPrefix + '.' + n + '.author'];
+                        }
+                    });
+                }
+            });
+        });
+
+        // Status badges
+        document.querySelectorAll('.status-live').forEach(el => {
+            el.textContent = dict['status.live'] || 'LIVE';
+        });
+        document.querySelectorAll('.status-planned').forEach(el => {
+            el.textContent = dict['status.planned'] || 'Planned';
+        });
+
+        // Update page title
+        if (dict['meta.title']) document.title = dict['meta.title'];
+    }
+};
+
+// Initialize i18n after DOM ready
+I18n.init();

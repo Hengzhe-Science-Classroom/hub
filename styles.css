@@ -615,6 +615,26 @@ body {
 .orbit-ring-2 .orbit-node { animation: orbitSpin2 45s linear infinite reverse; }
 .orbit-ring-3 .orbit-node { animation: orbitSpin3 60s linear infinite reverse; }
 
+/* === Language Toggle === */
+.lang-toggle {
+    font-size: 13px;
+    padding: 6px 16px;
+    border-radius: 100px;
+    color: var(--text-secondary);
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    font-weight: 500;
+}
+.lang-toggle:hover {
+    color: var(--text-primary);
+    background: var(--bg-card-hover);
+    box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
+
 /* === Responsive === */
 @media (max-width: 1024px) {
     .tier-grid { grid-template-columns: repeat(2, 1fr); margin-left: 0; }
