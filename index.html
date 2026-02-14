@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hengzhe's Science Classroom</title>
-    <meta name="description" content="Interactive textbook visualizations for Mathematics, Computer Science, Physics & Chemistry">
+    <meta name="description" content="From elementary school to the research frontier — interactive science education with visualizations for Math, CS, Physics & Chemistry">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,7 +16,7 @@
 <nav class="nav">
     <div class="nav-logo">HSC</div>
     <div class="nav-links">
-        <a href="#disciplines">Disciplines</a>
+        <a href="#journey">Journey</a>
         <a href="#features">Features</a>
         <a href="#vision">Vision</a>
         <a href="https://github.com/Hengzhe-Science-Classroom" target="_blank">GitHub</a>
@@ -27,22 +27,22 @@
 <section class="hero">
     <div class="hero-badge">
         <span class="pulse"></span>
-        1 textbook live &mdash; 16 more planned
+        1 course live &mdash; 88 more planned
     </div>
     <h1>
         <span class="gradient-text">Hengzhe's</span><br>
         Science Classroom
     </h1>
     <p class="hero-subtitle">
-        Rigorous, visualization-driven courses through graduate-level textbooks.
-        Interactive explorations of Math, CS, Physics, and Chemistry.
+        From elementary curiosity to research frontiers &mdash;
+        interactive, visualization-driven science education for everyone.
     </p>
     <div class="hero-cta">
         <a href="https://hengzhe-science-classroom.github.io/HZ-math-tuto-viz/" class="btn btn-primary" target="_blank">
             Explore Linear Algebra &rarr;
         </a>
-        <a href="#disciplines" class="btn btn-secondary">
-            View Roadmap
+        <a href="#journey" class="btn btn-secondary">
+            View Full Roadmap
         </a>
     </div>
 </section>
@@ -50,8 +50,12 @@
 <!-- Stats -->
 <div class="stats-bar">
     <div class="stat">
-        <div class="stat-value" data-target="17">0</div>
-        <div class="stat-label">Textbooks Planned</div>
+        <div class="stat-value" data-target="89">0</div>
+        <div class="stat-label">Courses Planned</div>
+    </div>
+    <div class="stat">
+        <div class="stat-value" data-target="5">0</div>
+        <div class="stat-label">Tiers</div>
     </div>
     <div class="stat">
         <div class="stat-value" data-target="4">0</div>
@@ -59,183 +63,274 @@
     </div>
     <div class="stat">
         <div class="stat-value" data-target="294" data-suffix="+">0</div>
-        <div class="stat-label">Visualizations</div>
-    </div>
-    <div class="stat">
-        <div class="stat-value" data-target="380" data-suffix="+">0</div>
-        <div class="stat-label">Exercises</div>
+        <div class="stat-label">Visualizations (so far)</div>
     </div>
 </div>
 
-<!-- Disciplines -->
-<section id="disciplines" class="section">
+<!-- Journey / Tiers -->
+<section id="journey" class="section">
     <div class="section-header">
-        <div class="section-tag">Disciplines</div>
-        <h2 class="section-title">Four Pillars of Science</h2>
-        <p class="section-desc">Each textbook becomes an interactive course with visualizations, exercises, and step-by-step explanations.</p>
+        <div class="section-tag">The Journey</div>
+        <h2 class="section-title">From Curiosity to Frontier</h2>
+        <p class="section-desc">Five tiers of science education. Every concept gets the interactive treatment it deserves.</p>
     </div>
 
-    <div class="discipline-grid">
-        <!-- Math -->
-        <div class="discipline-card" data-color="blue">
-            <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
-            <div class="discipline-name">Mathematics &amp; Statistics</div>
-            <div class="discipline-desc">From abstract algebra to topology &mdash; rigorous proofs brought to life with interactive diagrams.</div>
-            <div class="textbook-list">
-                <a class="textbook-item" href="https://hengzhe-science-classroom.github.io/HZ-math-tuto-viz/" target="_blank">
-                    <span class="textbook-emoji">&#x2705;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Advanced Linear Algebra</div>
-                        <div class="textbook-author">Steven Roman &middot; GTM 135</div>
-                    </div>
-                    <span class="textbook-status status-live">LIVE</span>
-                </a>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F4D0;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Real Analysis</div>
-                        <div class="textbook-author">Rudin / Tao</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+    <!-- Tier 1: Foundation -->
+    <div class="tier" data-tier="foundation">
+        <div class="tier-header">
+            <div class="tier-badge tier-foundation">TIER 1</div>
+            <div class="tier-info">
+                <h3 class="tier-name">&#x1F331; &#x542F;&#x8499; Foundation</h3>
+                <p class="tier-desc">Elementary &amp; Middle School &mdash; where curiosity begins</p>
+            </div>
+        </div>
+        <div class="tier-grid">
+            <div class="discipline-card" data-color="blue">
+                <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
+                <div class="discipline-name">Mathematics</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3B2;</span><div class="textbook-info"><div class="textbook-title">Fun Arithmetic &amp; Number Sense</div><div class="textbook-author">Operations, patterns, number games</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4CA;</span><div class="textbook-info"><div class="textbook-title">Fractions, Decimals &amp; Ratios</div><div class="textbook-author">Visual fraction models, proportional reasoning</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4D0;</span><div class="textbook-info"><div class="textbook-title">Geometric Intuition</div><div class="textbook-author">Shapes, symmetry, transformations</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9E9;</span><div class="textbook-info"><div class="textbook-title">Mathematical Thinking Games</div><div class="textbook-author">Logic puzzles, combinatorics, reasoning</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F522;</span><div class="textbook-info"><div class="textbook-title">Intro to Number Theory</div><div class="textbook-author">Primes, factors, GCD, LCM</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F3B2;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Probability &amp; Statistics</div>
-                        <div class="textbook-author">Casella &amp; Berger / Wasserman</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+            </div>
+            <div class="discipline-card" data-color="green">
+                <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
+                <div class="discipline-name">Physics</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3C3;</span><div class="textbook-info"><div class="textbook-title">Forces &amp; Motion Intuition</div><div class="textbook-author">Newton's laws made tangible</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F308;</span><div class="textbook-info"><div class="textbook-title">Light &amp; Sound</div><div class="textbook-author">Reflection, refraction, color, waves</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F50B;</span><div class="textbook-info"><div class="textbook-title">Simple Circuits</div><div class="textbook-author">Circuit builder, Ohm's law, series &amp; parallel</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F30C;</span><div class="textbook-info"><div class="textbook-title">Intro to Astronomy</div><div class="textbook-author">Solar system, moon phases, seasons</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x26A1;</span><div class="textbook-info"><div class="textbook-title">Energy &amp; Conservation</div><div class="textbook-author">KE, PE, energy transfers, simple machines</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F522;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Abstract Algebra</div>
-                        <div class="textbook-author">Dummit &amp; Foote / Artin</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
-                </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F4CA;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Topology</div>
-                        <div class="textbook-author">Munkres</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+            </div>
+            <div class="discipline-card" data-color="orange">
+                <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
+                <div class="discipline-name">Chemistry</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4A7;</span><div class="textbook-info"><div class="textbook-title">Matter &amp; Change</div><div class="textbook-author">States of matter, physical vs chemical change</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x269B;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Atoms &amp; Molecules</div><div class="textbook-author">Atomic structure, periodic table explorer</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9F4;</span><div class="textbook-info"><div class="textbook-title">Acids, Bases &amp; Salts</div><div class="textbook-author">pH visualization, indicator simulations</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F525;</span><div class="textbook-info"><div class="textbook-title">Chemistry in Daily Life</div><div class="textbook-author">Combustion, rust, food chemistry</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- CS -->
-        <div class="discipline-card" data-color="purple">
-            <div class="discipline-icon" data-color="purple">&#x1F4BB;</div>
-            <div class="discipline-name">Computer Science</div>
-            <div class="discipline-desc">Algorithms, systems, and theory &mdash; step through execution, visualize data structures and protocols.</div>
-            <div class="textbook-list">
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F4BB;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Algorithms</div>
-                        <div class="textbook-author">CLRS / Kleinberg-Tardos</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+    <!-- Tier 2: High School -->
+    <div class="tier" data-tier="highschool">
+        <div class="tier-header">
+            <div class="tier-badge tier-highschool">TIER 2</div>
+            <div class="tier-info">
+                <h3 class="tier-name">&#x1F4D8; &#x8FDB;&#x9636; High School</h3>
+                <p class="tier-desc">High school depth &mdash; building real understanding</p>
+            </div>
+        </div>
+        <div class="tier-grid">
+            <div class="discipline-card" data-color="blue">
+                <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
+                <div class="discipline-name">Mathematics</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4D0;</span><div class="textbook-info"><div class="textbook-title">Algebra</div><div class="textbook-author">Equations, functions, polynomials, logarithms</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4D0;</span><div class="textbook-info"><div class="textbook-title">Geometry</div><div class="textbook-author">Euclidean, trigonometry, conic sections</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4C8;</span><div class="textbook-info"><div class="textbook-title">Precalculus</div><div class="textbook-author">Limits intuition, function families, sequences</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3B2;</span><div class="textbook-info"><div class="textbook-title">Probability &amp; Statistics Intuition</div><div class="textbook-author">Probability models, CLT, normal distribution</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x2728;</span><div class="textbook-info"><div class="textbook-title">The Beauty of Mathematics</div><div class="textbook-author">Golden ratio, fractals, infinity, symmetry</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F5A5;&#xFE0F;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Operating Systems</div>
-                        <div class="textbook-author">OSTEP / Tanenbaum</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+            </div>
+            <div class="discipline-card" data-color="green">
+                <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
+                <div class="discipline-name">Physics</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3AF;</span><div class="textbook-info"><div class="textbook-title">Classical Mechanics</div><div class="textbook-author">Newton deep-dive, work, energy, momentum, rotation</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9F2;</span><div class="textbook-info"><div class="textbook-title">Electromagnetism</div><div class="textbook-author">Coulomb, fields, potentials, induction</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F321;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Thermal Physics</div><div class="textbook-author">Temperature, gas laws, thermodynamics</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F30A;</span><div class="textbook-info"><div class="textbook-title">Optics &amp; Waves</div><div class="textbook-author">Wave equation, interference, diffraction, EM spectrum</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F52D;</span><div class="textbook-info"><div class="textbook-title">Intro to Modern Physics</div><div class="textbook-author">Relativity, quantum concepts, atomic models</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F527;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Compilers</div>
-                        <div class="textbook-author">Dragon Book / Crafting Interpreters</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
-                </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F310;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Computer Networking</div>
-                        <div class="textbook-author">Kurose &amp; Ross</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
-                </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F5C4;&#xFE0F;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Database Systems</div>
-                        <div class="textbook-author">CMU 15-445 / Ramakrishnan</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+            </div>
+            <div class="discipline-card" data-color="orange">
+                <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
+                <div class="discipline-name">Chemistry</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x2696;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Stoichiometry</div><div class="textbook-author">Mole concept, balancing, solutions, gas chemistry</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x2696;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Chemical Equilibrium</div><div class="textbook-author">Reversible reactions, Le Chatelier, solubility</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F50B;</span><div class="textbook-info"><div class="textbook-title">Electrochemistry</div><div class="textbook-author">Redox, galvanic cells, electrolysis</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9EC;</span><div class="textbook-info"><div class="textbook-title">Organic Basics</div><div class="textbook-author">Carbon skeleton, functional groups, isomers</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3ED;</span><div class="textbook-info"><div class="textbook-title">Materials &amp; Life</div><div class="textbook-author">Metals, polymers, ceramics, nanomaterials</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Physics -->
-        <div class="discipline-card" data-color="green">
-            <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
-            <div class="discipline-name">Physics</div>
-            <div class="discipline-desc">From classical mechanics to quantum theory &mdash; simulate, animate, and explore physical laws.</div>
-            <div class="textbook-list">
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x269B;&#xFE0F;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Classical Mechanics</div>
-                        <div class="textbook-author">Goldstein / Taylor</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+    <!-- Tier 3: Undergraduate -->
+    <div class="tier" data-tier="undergrad">
+        <div class="tier-header">
+            <div class="tier-badge tier-undergrad">TIER 3</div>
+            <div class="tier-info">
+                <h3 class="tier-name">&#x1F393; &#x672C;&#x79D1; Undergraduate</h3>
+                <p class="tier-desc">University core &mdash; where rigor meets intuition</p>
+            </div>
+        </div>
+        <div class="tier-grid tier-grid-4">
+            <div class="discipline-card" data-color="blue">
+                <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
+                <div class="discipline-name">Mathematics</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x222B;</span><div class="textbook-info"><div class="textbook-title">Calculus</div><div class="textbook-author">Stewart</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4D0;</span><div class="textbook-info"><div class="textbook-title">Linear Algebra</div><div class="textbook-author">Strang</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4BB;</span><div class="textbook-info"><div class="textbook-title">Discrete Math</div><div class="textbook-author">Rosen</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4DD;</span><div class="textbook-info"><div class="textbook-title">Intro to Proofs</div><div class="textbook-author">Hammack</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3B2;</span><div class="textbook-info"><div class="textbook-title">Intro to Probability</div><div class="textbook-author">Blitzstein</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x26A1;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Electromagnetism</div>
-                        <div class="textbook-author">Griffiths</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+            </div>
+            <div class="discipline-card" data-color="purple">
+                <div class="discipline-icon" data-color="purple">&#x1F4BB;</div>
+                <div class="discipline-name">Computer Science</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4BB;</span><div class="textbook-info"><div class="textbook-title">Intro to Programming</div><div class="textbook-author">SICP</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F333;</span><div class="textbook-info"><div class="textbook-title">Data Structures</div><div class="textbook-author">Sedgewick</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F5A5;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Computer Architecture</div><div class="textbook-author">Patterson &amp; Hennessy</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F52C;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Quantum Mechanics</div>
-                        <div class="textbook-author">Griffiths / Sakurai</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+            </div>
+            <div class="discipline-card" data-color="green">
+                <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
+                <div class="discipline-name">Physics</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3AF;</span><div class="textbook-info"><div class="textbook-title">Mechanics</div><div class="textbook-author">Kleppner &amp; Kolenkow</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x26A1;</span><div class="textbook-info"><div class="textbook-title">E&amp;M</div><div class="textbook-author">Purcell</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F321;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Thermal Physics</div><div class="textbook-author">Schroeder</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F52C;</span><div class="textbook-info"><div class="textbook-title">Modern Physics</div><div class="textbook-author">Krane</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F321;&#xFE0F;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Thermo &amp; Statistical Mechanics</div>
-                        <div class="textbook-author">Schroeder / Pathria</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+            </div>
+            <div class="discipline-card" data-color="orange">
+                <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
+                <div class="discipline-name">Chemistry</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9EA;</span><div class="textbook-info"><div class="textbook-title">General Chemistry</div><div class="textbook-author">Atkins / Zumdahl</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9EC;</span><div class="textbook-info"><div class="textbook-title">Organic Chemistry</div><div class="textbook-author">McMurry</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Chemistry -->
-        <div class="discipline-card" data-color="orange">
-            <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
-            <div class="discipline-name">Chemistry</div>
-            <div class="discipline-desc">Atoms, molecules, and reactions &mdash; 3D molecular viewers, mechanism animations, and simulations.</div>
-            <div class="textbook-list">
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F9EA;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">General Chemistry</div>
-                        <div class="textbook-author">Atkins / Zumdahl</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+    <!-- Tier 4: Graduate -->
+    <div class="tier" data-tier="graduate">
+        <div class="tier-header">
+            <div class="tier-badge tier-graduate">TIER 4</div>
+            <div class="tier-info">
+                <h3 class="tier-name">&#x1F52C; &#x7814;&#x7A76;&#x751F; Graduate</h3>
+                <p class="tier-desc">Master's &amp; PhD &mdash; deep theory, serious proofs</p>
+            </div>
+        </div>
+        <div class="tier-grid tier-grid-4">
+            <div class="discipline-card" data-color="blue">
+                <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
+                <div class="discipline-name">Mathematics</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4D5;</span><div class="textbook-info"><div class="textbook-title">Real Analysis</div><div class="textbook-author">Rudin / Tao</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F522;</span><div class="textbook-info"><div class="textbook-title">Abstract Algebra</div><div class="textbook-author">Dummit &amp; Foote</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <a class="textbook-item" href="https://hengzhe-science-classroom.github.io/HZ-math-tuto-viz/" target="_blank"><span class="textbook-emoji">&#x2705;</span><div class="textbook-info"><div class="textbook-title">Advanced Linear Algebra</div><div class="textbook-author">Roman &middot; GTM 135</div></div><span class="textbook-status status-live">LIVE</span></a>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4CA;</span><div class="textbook-info"><div class="textbook-title">Topology</div><div class="textbook-author">Munkres</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4D7;</span><div class="textbook-info"><div class="textbook-title">Complex Analysis</div><div class="textbook-author">Ahlfors</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4C9;</span><div class="textbook-info"><div class="textbook-title">ODE</div><div class="textbook-author">Tenenbaum</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4C8;</span><div class="textbook-info"><div class="textbook-title">PDE</div><div class="textbook-author">Evans</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3B2;</span><div class="textbook-info"><div class="textbook-title">Probability &amp; Statistics</div><div class="textbook-author">Casella &amp; Berger</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
-                <div class="textbook-item">
-                    <span class="textbook-emoji">&#x1F9EC;</span>
-                    <div class="textbook-info">
-                        <div class="textbook-title">Organic Chemistry</div>
-                        <div class="textbook-author">Clayden / Wade</div>
-                    </div>
-                    <span class="textbook-status status-planned">Planned</span>
+            </div>
+            <div class="discipline-card" data-color="purple">
+                <div class="discipline-icon" data-color="purple">&#x1F4BB;</div>
+                <div class="discipline-name">Computer Science</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4BB;</span><div class="textbook-info"><div class="textbook-title">Algorithms</div><div class="textbook-author">CLRS</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F5A5;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Operating Systems</div><div class="textbook-author">OSTEP</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F527;</span><div class="textbook-info"><div class="textbook-title">Compilers</div><div class="textbook-author">Dragon Book</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F310;</span><div class="textbook-info"><div class="textbook-title">Networking</div><div class="textbook-author">Kurose &amp; Ross</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F5C4;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Databases</div><div class="textbook-author">CMU 15-445</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F916;</span><div class="textbook-info"><div class="textbook-title">Machine Learning</div><div class="textbook-author">Bishop / Murphy</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3A8;</span><div class="textbook-info"><div class="textbook-title">Computer Graphics</div><div class="textbook-author">Fundamentals of CG</div></div><span class="textbook-status status-planned">Planned</span></div>
+                </div>
+            </div>
+            <div class="discipline-card" data-color="green">
+                <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
+                <div class="discipline-name">Physics</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x269B;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Classical Mechanics</div><div class="textbook-author">Goldstein / Taylor</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x26A1;</span><div class="textbook-info"><div class="textbook-title">Electromagnetism</div><div class="textbook-author">Griffiths</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F52C;</span><div class="textbook-info"><div class="textbook-title">Quantum Mechanics</div><div class="textbook-author">Griffiths / Sakurai</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F321;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Statistical Mechanics</div><div class="textbook-author">Pathria</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4D0;</span><div class="textbook-info"><div class="textbook-title">Mathematical Physics</div><div class="textbook-author">Arfken</div></div><span class="textbook-status status-planned">Planned</span></div>
+                </div>
+            </div>
+            <div class="discipline-card" data-color="orange">
+                <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
+                <div class="discipline-name">Chemistry</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9EC;</span><div class="textbook-info"><div class="textbook-title">Organic Chemistry</div><div class="textbook-author">Clayden</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9EA;</span><div class="textbook-info"><div class="textbook-title">Physical Chemistry</div><div class="textbook-author">Atkins</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F48E;</span><div class="textbook-info"><div class="textbook-title">Inorganic Chemistry</div><div class="textbook-author">Miessler</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F50D;</span><div class="textbook-info"><div class="textbook-title">Analytical Chemistry</div><div class="textbook-author">Skoog</div></div><span class="textbook-status status-planned">Planned</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tier 5: Frontier -->
+    <div class="tier" data-tier="frontier">
+        <div class="tier-header">
+            <div class="tier-badge tier-frontier">TIER 5</div>
+            <div class="tier-info">
+                <h3 class="tier-name">&#x1F680; &#x524D;&#x6CBF; Frontier</h3>
+                <p class="tier-desc">Research-level &mdash; the cutting edge of human knowledge</p>
+            </div>
+        </div>
+        <div class="tier-grid tier-grid-4">
+            <div class="discipline-card" data-color="blue">
+                <div class="discipline-icon" data-color="blue">&#x1F4D0;</div>
+                <div class="discipline-name">Mathematics</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F300;</span><div class="textbook-info"><div class="textbook-title">Algebraic Topology</div><div class="textbook-author">Hatcher</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F30D;</span><div class="textbook-info"><div class="textbook-title">Differential Geometry</div><div class="textbook-author">do Carmo</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x221E;</span><div class="textbook-info"><div class="textbook-title">Functional Analysis</div><div class="textbook-author">Rudin</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F4CF;</span><div class="textbook-info"><div class="textbook-title">Measure Theory</div><div class="textbook-author">Folland</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F48E;</span><div class="textbook-info"><div class="textbook-title">Algebraic Geometry</div><div class="textbook-author">Hartshorne</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F522;</span><div class="textbook-info"><div class="textbook-title">Analytic Number Theory</div><div class="textbook-author">Apostol</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3AD;</span><div class="textbook-info"><div class="textbook-title">Representation Theory</div><div class="textbook-author">Fulton &amp; Harris</div></div><span class="textbook-status status-planned">Planned</span></div>
+                </div>
+            </div>
+            <div class="discipline-card" data-color="purple">
+                <div class="discipline-icon" data-color="purple">&#x1F4BB;</div>
+                <div class="discipline-name">Computer Science</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F310;</span><div class="textbook-info"><div class="textbook-title">Distributed Systems</div><div class="textbook-author">Kleppmann</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F510;</span><div class="textbook-info"><div class="textbook-title">Cryptography</div><div class="textbook-author">Katz &amp; Lindell</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9E0;</span><div class="textbook-info"><div class="textbook-title">Computational Complexity</div><div class="textbook-author">Arora &amp; Barak</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3F7;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Type Theory</div><div class="textbook-author">Pierce</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F916;</span><div class="textbook-info"><div class="textbook-title">Deep Learning</div><div class="textbook-author">Goodfellow</div></div><span class="textbook-status status-planned">Planned</span></div>
+                </div>
+            </div>
+            <div class="discipline-card" data-color="green">
+                <div class="discipline-icon" data-color="green">&#x269B;&#xFE0F;</div>
+                <div class="discipline-name">Physics</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x2728;</span><div class="textbook-info"><div class="textbook-title">Quantum Field Theory</div><div class="textbook-author">Peskin &amp; Schroeder</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F30C;</span><div class="textbook-info"><div class="textbook-title">General Relativity</div><div class="textbook-author">Carroll</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9CA;</span><div class="textbook-info"><div class="textbook-title">Condensed Matter</div><div class="textbook-author">Ashcroft &amp; Mermin</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x269B;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Particle Physics</div><div class="textbook-author">Griffiths</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F30D;</span><div class="textbook-info"><div class="textbook-title">Cosmology</div><div class="textbook-author">Weinberg</div></div><span class="textbook-status status-planned">Planned</span></div>
+                </div>
+            </div>
+            <div class="discipline-card" data-color="orange">
+                <div class="discipline-icon" data-color="orange">&#x1F9EA;</div>
+                <div class="discipline-name">Chemistry</div>
+                <div class="textbook-list">
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9EC;</span><div class="textbook-info"><div class="textbook-title">Advanced Organic Synthesis</div><div class="textbook-author">March</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x269B;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Quantum Chemistry</div><div class="textbook-author">Szabo &amp; Ostlund</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F9EC;</span><div class="textbook-info"><div class="textbook-title">Biochemistry</div><div class="textbook-author">Lehninger / Stryer</div></div><span class="textbook-status status-planned">Planned</span></div>
+                    <div class="textbook-item"><span class="textbook-emoji">&#x1F3D7;&#xFE0F;</span><div class="textbook-info"><div class="textbook-title">Materials Science</div><div class="textbook-author">Callister</div></div><span class="textbook-status status-planned">Planned</span></div>
                 </div>
             </div>
         </div>
@@ -247,7 +342,7 @@
     <div class="section-header">
         <div class="section-tag">Approach</div>
         <h2 class="section-title">How We Teach</h2>
-        <p class="section-desc">Every concept gets the interactive treatment it deserves.</p>
+        <p class="section-desc">Not exam prep. Not memorization. Pure understanding through interaction.</p>
     </div>
 
     <div class="features-grid">
@@ -257,19 +352,19 @@
             <div class="feature-desc">Drag points, adjust sliders, watch animations. Abstract concepts become tangible through hands-on exploration.</div>
         </div>
         <div class="feature-card">
-            <div class="feature-icon">&#x1F4DD;</div>
-            <div class="feature-title">Exercises &amp; Solutions</div>
-            <div class="feature-desc">Hundreds of exercises with progressive hints and full solutions. Test your understanding at every step.</div>
+            <div class="feature-icon">&#x1F4A1;</div>
+            <div class="feature-title">Intuition First</div>
+            <div class="feature-desc">Build deep understanding before formalism. Every theorem starts with "why" before "how to prove."</div>
         </div>
         <div class="feature-card">
             <div class="feature-icon">&#x2211;</div>
-            <div class="feature-title">Rigorous Notation</div>
-            <div class="feature-desc">KaTeX-rendered mathematics. No shortcuts on notation &mdash; every proof and definition is typeset properly.</div>
+            <div class="feature-title">Rigorous When Ready</div>
+            <div class="feature-desc">KaTeX-rendered math with full proofs. Rigor scales with the tier &mdash; from playful to publication-grade.</div>
         </div>
         <div class="feature-card">
-            <div class="feature-icon">&#x26A1;</div>
-            <div class="feature-title">Instant Loading</div>
-            <div class="feature-desc">Lazy-loaded chapters with zero build step. Select a topic and start learning in milliseconds.</div>
+            <div class="feature-icon">&#x1F331;</div>
+            <div class="feature-title">Learn at Any Age</div>
+            <div class="feature-desc">Five tiers from elementary school to research frontier. Start wherever you are, go as far as you want.</div>
         </div>
         <div class="feature-card">
             <div class="feature-icon">&#x1F4C8;</div>
@@ -279,7 +374,7 @@
         <div class="feature-card">
             <div class="feature-icon">&#x1F310;</div>
             <div class="feature-title">Free &amp; Open Source</div>
-            <div class="feature-desc">Everything is on GitHub. No accounts, no paywalls. Just open the link and start learning.</div>
+            <div class="feature-desc">Everything is on GitHub. No accounts, no paywalls, no ads. Just open the link and start learning.</div>
         </div>
     </div>
 </section>
@@ -289,7 +384,7 @@
     <div class="section-header">
         <div class="section-tag">Vision</div>
         <h2 class="section-title">A Connected Universe</h2>
-        <p class="section-desc">Every discipline connects. Our platform will let you explore across boundaries.</p>
+        <p class="section-desc">Every discipline connects. From counting to cosmology, it's all one story.</p>
     </div>
 
     <div class="orbit-container">
@@ -298,45 +393,45 @@
         <div class="orbit-ring orbit-ring-1">
             <div class="orbit-node" data-color="blue" style="position:absolute; top:-24px; left:50%; margin-left:-24px;">
                 &#x1F4D0;
-                <span class="orbit-label" style="top:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Linear Algebra</span>
+                <span class="orbit-label" style="top:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Math</span>
             </div>
-            <div class="orbit-node" data-color="blue" style="position:absolute; bottom:-24px; left:50%; margin-left:-24px;">
-                &#x1F3B2;
-                <span class="orbit-label" style="bottom:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Probability</span>
+            <div class="orbit-node" data-color="green" style="position:absolute; bottom:-24px; left:50%; margin-left:-24px;">
+                &#x269B;&#xFE0F;
+                <span class="orbit-label" style="bottom:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Physics</span>
             </div>
         </div>
 
         <div class="orbit-ring orbit-ring-2">
             <div class="orbit-node" data-color="purple" style="position:absolute; top:-24px; left:50%; margin-left:-24px;">
                 &#x1F4BB;
-                <span class="orbit-label" style="top:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Algorithms</span>
+                <span class="orbit-label" style="top:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">CS</span>
             </div>
-            <div class="orbit-node" data-color="green" style="position:absolute; bottom:-24px; left:50%; margin-left:-24px;">
-                &#x269B;&#xFE0F;
-                <span class="orbit-label" style="bottom:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Mechanics</span>
-            </div>
-            <div class="orbit-node" data-color="orange" style="position:absolute; top:50%; right:-24px; margin-top:-24px;">
+            <div class="orbit-node" data-color="orange" style="position:absolute; bottom:-24px; left:50%; margin-left:-24px;">
                 &#x1F9EA;
-                <span class="orbit-label" style="left:60px; top:50%; transform:translateY(-50%); opacity:0; transition:opacity 0.3s;">Chemistry</span>
+                <span class="orbit-label" style="bottom:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Chemistry</span>
+            </div>
+            <div class="orbit-node" data-color="cyan" style="position:absolute; top:50%; right:-24px; margin-top:-24px;">
+                &#x1F331;
+                <span class="orbit-label" style="left:60px; top:50%; transform:translateY(-50%); opacity:0; transition:opacity 0.3s;">Foundation</span>
             </div>
         </div>
 
         <div class="orbit-ring orbit-ring-3">
-            <div class="orbit-node" data-color="cyan" style="position:absolute; top:-24px; left:50%; margin-left:-24px;">
+            <div class="orbit-node" data-color="pink" style="position:absolute; top:-24px; left:50%; margin-left:-24px;">
+                &#x1F393;
+                <span class="orbit-label" style="top:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Undergrad</span>
+            </div>
+            <div class="orbit-node" data-color="blue" style="position:absolute; bottom:-24px; left:50%; margin-left:-24px;">
                 &#x1F52C;
-                <span class="orbit-label" style="top:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Quantum</span>
+                <span class="orbit-label" style="bottom:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Graduate</span>
             </div>
-            <div class="orbit-node" data-color="pink" style="position:absolute; bottom:-24px; left:50%; margin-left:-24px;">
-                &#x1F9EC;
-                <span class="orbit-label" style="bottom:-24px; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.3s;">Organic Chem</span>
+            <div class="orbit-node" data-color="green" style="position:absolute; top:50%; left:-24px; margin-top:-24px;">
+                &#x1F680;
+                <span class="orbit-label" style="right:60px; top:50%; transform:translateY(-50%); opacity:0; transition:opacity 0.3s;">Frontier</span>
             </div>
-            <div class="orbit-node" data-color="blue" style="position:absolute; top:50%; left:-24px; margin-top:-24px;">
-                &#x1F4CA;
-                <span class="orbit-label" style="right:60px; top:50%; transform:translateY(-50%); opacity:0; transition:opacity 0.3s;">Topology</span>
-            </div>
-            <div class="orbit-node" data-color="green" style="position:absolute; top:50%; right:-24px; margin-top:-24px;">
-                &#x26A1;
-                <span class="orbit-label" style="left:60px; top:50%; transform:translateY(-50%); opacity:0; transition:opacity 0.3s;">E&amp;M</span>
+            <div class="orbit-node" data-color="orange" style="position:absolute; top:50%; right:-24px; margin-top:-24px;">
+                &#x1F4D8;
+                <span class="orbit-label" style="left:60px; top:50%; transform:translateY(-50%); opacity:0; transition:opacity 0.3s;">High School</span>
             </div>
         </div>
     </div>

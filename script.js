@@ -112,7 +112,11 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
 
 document.querySelectorAll('.discipline-card, .feature-card').forEach((el, i) => {
-    el.style.transitionDelay = (i % 4) * 0.1 + 's';
+    // Reset index per tier for staggering
+    const parent = el.closest('.tier-grid') || el.closest('.features-grid') || el.closest('.discipline-grid');
+    const siblings = parent ? Array.from(parent.children) : [];
+    const localIdx = siblings.indexOf(el);
+    el.style.transitionDelay = (localIdx >= 0 ? localIdx : i % 4) * 0.1 + 's';
     observer.observe(el);
 });
 
