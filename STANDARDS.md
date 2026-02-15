@@ -49,6 +49,9 @@ window.CHAPTER_MANIFEST = [
 ```
 
 - Roadmap in the welcome screen shows Parts (A, B, C...) with chapter lists
+- **IMPORTANT:** Welcome screen must display primary reference authors/textbooks prominently
+  - Example: `<p class="author">Wainwright / Vershynin / Bühlmann & van de Geer</p>` in sidebar header
+  - This gives proper academic credit and helps students know what textbooks the course follows
 - Sidebar with search, progress bar, chapter navigation
 - Must include `sidebar-toggle` button for mobile
 
