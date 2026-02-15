@@ -11,6 +11,7 @@
 | Fun Arithmetic & Number Sense | Tier 1 · Foundation | [Open the App](https://hengzhe-science-classroom.github.io/HZ-fun-arithmetic/) |
 | Real Analysis I (Rudin / Tao) | Tier 4 · Graduate | [Open the App](https://hengzhe-science-classroom.github.io/HZ-real-analysis/) |
 | Advanced Linear Algebra (Roman GTM 135) | Tier 4 · Graduate | [Open the App](https://hengzhe-science-classroom.github.io/HZ-advanced-linear-algebra/) |
+| High-Dimensional Statistics (Wainwright / Vershynin) | Tier 5 · Research Frontier | [Open the App](https://hengzhe-science-classroom.github.io/HZ-high-dimensional-statistics/) |
 
 ## What Is This?
 
@@ -31,6 +32,7 @@ Every course features:
 | [HZ-fun-arithmetic](https://github.com/Hengzhe-Science-Classroom/HZ-fun-arithmetic) | Fun Arithmetic & Number Sense (10 chapters) |
 | [HZ-advanced-linear-algebra](https://github.com/Hengzhe-Science-Classroom/HZ-advanced-linear-algebra) | Advanced Linear Algebra — Roman GTM 135 (20 chapters, 294 visualizations, 380 exercises) |
 | [HZ-real-analysis](https://github.com/Hengzhe-Science-Classroom/HZ-real-analysis) | Real Analysis I — Rudin / Tao (11 chapters, 100 visualizations, 294 exercises) |
+| [HZ-high-dimensional-statistics](https://github.com/Hengzhe-Science-Classroom/HZ-high-dimensional-statistics) | High-Dimensional Statistics — Wainwright / Vershynin (20 chapters, ~65 visualizations, ~92 exercises) |
 
 ## 92 Courses Planned
 
