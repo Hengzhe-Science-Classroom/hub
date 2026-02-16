@@ -155,6 +155,13 @@ en: {
     "tier3.cs.3.title": "Computer Architecture",
     "tier3.cs.3.author": "Patterson & Hennessy",
 
+    // Discipline names
+    "disc.math.en": "Mathematics",
+    "disc.cs.en": "Computer Science",
+    "disc.stats.en": "Statistics & Data Science",
+    "disc.phys.en": "Physics",
+    "disc.chem.en": "Chemistry",
+
     // Tier 3 - Physics
     "tier3.phys.name": "Physics",
     "tier3.phys.1.title": "Mechanics",
@@ -495,6 +502,13 @@ zh: {
     "tier3.cs.2.author": "Sedgewick",
     "tier3.cs.3.title": "计算机体系结构",
     "tier3.cs.3.author": "Patterson & Hennessy",
+
+    // Discipline names
+    "disc.math.zh": "数学",
+    "disc.cs.zh": "计算机科学",
+    "disc.stats.zh": "统计与数据科学",
+    "disc.phys.zh": "物理",
+    "disc.chem.zh": "化学",
 
     // Tier 3 - Physics
     "tier3.phys.name": "物理",

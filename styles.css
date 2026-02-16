@@ -346,6 +346,9 @@ body {
 .tier-grid-4 {
     grid-template-columns: repeat(2, 1fr);
 }
+.tier-grid-5 {
+    grid-template-columns: repeat(2, 1fr);
+}
 
 /* === Discipline Grid === */
 .discipline-grid {
@@ -387,11 +390,13 @@ body {
 .discipline-card:hover::before { opacity: 1; }
 .discipline-card[data-color="blue"]::before { background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan)); }
 .discipline-card[data-color="purple"]::before { background: linear-gradient(90deg, var(--accent-purple), var(--accent-pink)); }
+.discipline-card[data-color="teal"]::before { background: linear-gradient(90deg, var(--accent-cyan), var(--accent-green)); }
 .discipline-card[data-color="green"]::before { background: linear-gradient(90deg, var(--accent-green), var(--accent-cyan)); }
 .discipline-card[data-color="orange"]::before { background: linear-gradient(90deg, var(--accent-orange), var(--accent-yellow)); }
 
 .discipline-card:hover { box-shadow: var(--glow-blue); }
 .discipline-card[data-color="purple"]:hover { box-shadow: var(--glow-purple); }
+.discipline-card[data-color="teal"]:hover { box-shadow: var(--glow-cyan); }
 .discipline-card[data-color="green"]:hover { box-shadow: var(--glow-green); }
 .discipline-card[data-color="orange"]:hover { box-shadow: 0 0 40px rgba(251,146,60,0.15); }
 
@@ -407,6 +412,7 @@ body {
 }
 .discipline-icon[data-color="blue"] { background: rgba(79,143,255,0.12); }
 .discipline-icon[data-color="purple"] { background: rgba(168,85,247,0.12); }
+.discipline-icon[data-color="teal"] { background: rgba(34,211,238,0.12); }
 .discipline-icon[data-color="green"] { background: rgba(52,211,153,0.12); }
 .discipline-icon[data-color="orange"] { background: rgba(251,146,60,0.12); }
 
@@ -572,6 +578,7 @@ body {
 .orbit-node:hover { transform: scale(1.2); }
 .orbit-node[data-color="blue"] { background: rgba(79,143,255,0.2); border: 1px solid rgba(79,143,255,0.3); }
 .orbit-node[data-color="purple"] { background: rgba(168,85,247,0.2); border: 1px solid rgba(168,85,247,0.3); }
+.orbit-node[data-color="teal"] { background: rgba(34,211,238,0.2); border: 1px solid rgba(34,211,238,0.3); }
 .orbit-node[data-color="green"] { background: rgba(52,211,153,0.2); border: 1px solid rgba(52,211,153,0.3); }
 .orbit-node[data-color="orange"] { background: rgba(251,146,60,0.2); border: 1px solid rgba(251,146,60,0.3); }
 .orbit-node[data-color="cyan"] { background: rgba(34,211,238,0.2); border: 1px solid rgba(34,211,238,0.3); }
@@ -651,6 +658,7 @@ body {
 @media (max-width: 1024px) {
     .tier-grid { grid-template-columns: repeat(2, 1fr); margin-left: 0; }
     .tier-grid-4 { grid-template-columns: repeat(2, 1fr); }
+    .tier-grid-5 { grid-template-columns: repeat(2, 1fr); }
     .tier::before { display: none; }
     .discipline-grid { grid-template-columns: 1fr; }
     .features-grid { grid-template-columns: repeat(2, 1fr); }
@@ -668,6 +676,7 @@ body {
     .section { padding: 80px 24px; }
     .tier-grid { grid-template-columns: 1fr; margin-left: 0; }
     .tier-grid-4 { grid-template-columns: 1fr; }
+    .tier-grid-5 { grid-template-columns: 1fr; }
     .tier-header { gap: 12px; }
     .tier-badge { width: 44px; height: 44px; font-size: 10px; border-radius: 12px; }
     .tier-name { font-size: 18px; }
