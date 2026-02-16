@@ -21,7 +21,7 @@ en: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "5 courses live — 87 more planned",
+    "hero.badge": "5 courses live — 88 more planned",
     "hero.title1": "Hengzhe's",
     "hero.title2": "Science Classroom",
     "hero.subtitle": "From elementary curiosity to research frontiers — interactive, visualization-driven science education for everyone.",
@@ -186,8 +186,10 @@ en: {
 
     // Tier 4 - Mathematics
     "tier4.math.name": "Mathematics",
-    "tier4.math.1.title": "Real Analysis",
+    "tier4.math.1.title": "Real Analysis I",
     "tier4.math.1.author": "Rudin / Tao",
+    "tier4.math.1b.title": "Real Analysis II",
+    "tier4.math.1b.author": "Rudin / Folland",
     "tier4.math.2.title": "Abstract Algebra",
     "tier4.math.2.author": "Dummit & Foote",
     "tier4.math.3.title": "Advanced Linear Algebra",
