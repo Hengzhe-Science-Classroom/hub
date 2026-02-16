@@ -21,7 +21,7 @@ en: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "4 courses live — 88 more planned",
+    "hero.badge": "5 courses live — 87 more planned",
     "hero.title1": "Hengzhe's",
     "hero.title2": "Science Classroom",
     "hero.subtitle": "From elementary curiosity to research frontiers — interactive, visualization-driven science education for everyone.",
