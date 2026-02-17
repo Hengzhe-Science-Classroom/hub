@@ -21,7 +21,7 @@ en: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "6 courses live — 87 more planned",
+    "hero.badge": "7 courses live — 86 more planned",
     "hero.title1": "Hengzhe's",
     "hero.title2": "Science Classroom",
     "hero.subtitle": "From elementary curiosity to research frontiers — interactive, visualization-driven science education for everyone.",
@@ -202,8 +202,8 @@ en: {
     "tier4.math.6.author": "Tenenbaum",
     "tier4.math.7.title": "PDE",
     "tier4.math.7.author": "Evans",
-    "tier4.math.8.title": "Probability & Statistics",
-    "tier4.math.8.author": "Casella & Berger",
+    "tier4.math.8.title": "Mathematical Statistics",
+    "tier4.math.8.author": "Casella & Berger / 陈希孺 / Hogg, McKean & Craig",
     "tier4.math.9.title": "Statistical Modeling",
     "tier4.math.9.author": "Dobson / McCullagh & Nelder",
     "tier4.math.10.title": "Causal Inference",
@@ -371,7 +371,7 @@ zh: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "6门课程已上线 — 另有87门规划中",
+    "hero.badge": "7门课程已上线 — 另有86门规划中",
     "hero.title1": "恒哲的",
     "hero.title2": "科学教室",
     "hero.subtitle": "从童年好奇到科研前沿 — 面向所有人的交互式可视化科学教育。",
@@ -550,8 +550,8 @@ zh: {
     "tier4.math.6.author": "Tenenbaum",
     "tier4.math.7.title": "偏微分方程",
     "tier4.math.7.author": "Evans",
-    "tier4.math.8.title": "概率与统计",
-    "tier4.math.8.author": "Casella & Berger",
+    "tier4.math.8.title": "数理统计",
+    "tier4.math.8.author": "Casella & Berger / 陈希孺 / Hogg, McKean & Craig",
     "tier4.math.9.title": "统计建模",
     "tier4.math.9.author": "Dobson / McCullagh & Nelder",
     "tier4.math.10.title": "因果推断",

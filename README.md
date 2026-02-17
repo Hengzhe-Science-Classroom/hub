@@ -13,6 +13,7 @@
 | Advanced Linear Algebra (Roman GTM 135) | Tier 4 · Graduate | [Open the App](https://hengzhe-science-classroom.github.io/HZ-advanced-linear-algebra/) |
 | High-Dimensional Statistics (Wainwright / Vershynin) | Tier 5 · Research Frontier | [Open the App](https://hengzhe-science-classroom.github.io/HZ-high-dimensional-statistics/) |
 | Forces & Motion Intuition (Hewitt / Perelman) | Tier 1 · Foundation | [Open the App](https://hengzhe-science-classroom.github.io/HZ-forces-motion-intuition/) |
+| Mathematical Statistics (Casella & Berger / 陈希孺) | Tier 4 · Graduate | [Open the App](https://hengzhe-science-classroom.github.io/HZ-mathematical-statistics/) |
 
 ## What Is This?
 
@@ -35,6 +36,7 @@ Every course features:
 | [HZ-real-analysis](https://github.com/Hengzhe-Science-Classroom/HZ-real-analysis) | Real Analysis I — Rudin / Tao (11 chapters, 100 visualizations, 294 exercises) |
 | [HZ-high-dimensional-statistics](https://github.com/Hengzhe-Science-Classroom/HZ-high-dimensional-statistics) | High-Dimensional Statistics — Wainwright / Vershynin (20 chapters, ~65 visualizations, ~92 exercises) |
 | [HZ-forces-motion-intuition](https://github.com/Hengzhe-Science-Classroom/HZ-forces-motion-intuition) | Forces & Motion Intuition — Hewitt / Perelman (22 chapters, 85 visualizations, 152 exercises) |
+| [HZ-mathematical-statistics](https://github.com/Hengzhe-Science-Classroom/HZ-mathematical-statistics) | Mathematical Statistics — Casella & Berger / 陈希孺 (18 chapters, 96 visualizations, 248 exercises) |
 
 ## 92 Courses Planned
 
