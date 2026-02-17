@@ -21,7 +21,7 @@ en: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "5 courses live — 88 more planned",
+    "hero.badge": "6 courses live — 87 more planned",
     "hero.title1": "Hengzhe's",
     "hero.title2": "Science Classroom",
     "hero.subtitle": "From elementary curiosity to research frontiers — interactive, visualization-driven science education for everyone.",
@@ -65,7 +65,7 @@ en: {
     // Tier 1 - Physics
     "tier1.phys.name": "Physics",
     "tier1.phys.1.title": "Forces & Motion Intuition",
-    "tier1.phys.1.author": "Newton's laws made tangible",
+    "tier1.phys.1.author": "Hewitt / Perelman / PEP Textbook",
     "tier1.phys.2.title": "Light & Sound",
     "tier1.phys.2.author": "Reflection, refraction, color, waves",
     "tier1.phys.3.title": "Simple Circuits",
@@ -371,7 +371,7 @@ zh: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "4门课程已上线 — 另有88门规划中",
+    "hero.badge": "6门课程已上线 — 另有87门规划中",
     "hero.title1": "恒哲的",
     "hero.title2": "科学教室",
     "hero.subtitle": "从童年好奇到科研前沿 — 面向所有人的交互式可视化科学教育。",
@@ -415,7 +415,7 @@ zh: {
     // Tier 1 - Physics
     "tier1.phys.name": "物理",
     "tier1.phys.1.title": "力与运动直觉",
-    "tier1.phys.1.author": "让牛顿定律变得可触可感",
+    "tier1.phys.1.author": "Hewitt / 别莱利曼 / 人教版",
     "tier1.phys.2.title": "光与声",
     "tier1.phys.2.author": "反射、折射、色彩、波动",
     "tier1.phys.3.title": "简单电路",
