@@ -352,7 +352,8 @@ en: {
     // Footer
     "footer.text": "Built by Hengzhe",
     "footer.github": "GitHub",
-    "footer.opensource": "Open Source & Free Forever"
+    "footer.opensource": "Open Source & Free Forever",
+    "footer.license": "\u00A9 2026 Hengzhe Zhao. Dual-licensed under AGPL-3.0 & Commercial."
 },
 
 /* ----------------------------------------------------------------
@@ -700,7 +701,8 @@ zh: {
     // Footer
     "footer.text": "恒哲出品",
     "footer.github": "GitHub",
-    "footer.opensource": "开源且永久免费"
+    "footer.opensource": "开源且永久免费",
+    "footer.license": "\u00A9 2026 Hengzhe Zhao. 双重授权：AGPL-3.0（开源）及商业许可。"
 }
 
 };
