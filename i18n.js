@@ -21,7 +21,7 @@ en: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "7 courses live — 86 more planned",
+    "hero.badge": "8 courses live — 85 more planned",
     "hero.title1": "Hengzhe's",
     "hero.title2": "Science Classroom",
     "hero.subtitle": "From elementary curiosity to research frontiers — interactive, visualization-driven science education for everyone.",
@@ -118,16 +118,8 @@ en: {
 
     // Tier 2 - Chemistry
     "tier2.chem.name": "Chemistry",
-    "tier2.chem.1.title": "Stoichiometry",
-    "tier2.chem.1.author": "Mole concept, balancing, solutions, gas chemistry",
-    "tier2.chem.2.title": "Chemical Equilibrium",
-    "tier2.chem.2.author": "Reversible reactions, Le Chatelier, solubility",
-    "tier2.chem.3.title": "Electrochemistry",
-    "tier2.chem.3.author": "Redox, galvanic cells, electrolysis",
-    "tier2.chem.4.title": "Organic Basics",
-    "tier2.chem.4.author": "Carbon skeleton, functional groups, isomers",
-    "tier2.chem.5.title": "Materials & Life",
-    "tier2.chem.5.author": "Metals, polymers, ceramics, nanomaterials",
+    "tier2.chem.1.title": "High School Chemistry",
+    "tier2.chem.1.author": "Chinese National Curriculum (Ren Jiao Ban) · 18 chapters",
 
     // Tier 3: Undergraduate
     "tier3.name": "\u{1F393} \u672C\u79D1 Undergraduate",
@@ -372,7 +364,7 @@ zh: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "7门课程已上线 — 另有86门规划中",
+    "hero.badge": "8门课程已上线 — 另有85门规划中",
     "hero.title1": "恒哲的",
     "hero.title2": "科学教室",
     "hero.subtitle": "从童年好奇到科研前沿 — 面向所有人的交互式可视化科学教育。",
@@ -469,16 +461,8 @@ zh: {
 
     // Tier 2 - Chemistry
     "tier2.chem.name": "化学",
-    "tier2.chem.1.title": "化学计量学",
-    "tier2.chem.1.author": "摩尔概念、配平、溶液、气体化学",
-    "tier2.chem.2.title": "化学平衡",
-    "tier2.chem.2.author": "可逆反应、勒夏特列原理、溶解度",
-    "tier2.chem.3.title": "电化学",
-    "tier2.chem.3.author": "氧化还原、原电池、电解",
-    "tier2.chem.4.title": "有机化学基础",
-    "tier2.chem.4.author": "碳骨架、官能团、同分异构体",
-    "tier2.chem.5.title": "材料与生活",
-    "tier2.chem.5.author": "金属、高分子、陶瓷、纳米材料",
+    "tier2.chem.1.title": "高中化学",
+    "tier2.chem.1.author": "人教版 · 18章",
 
     // Tier 3: Undergraduate
     "tier3.name": "\u{1F393} 本科",
