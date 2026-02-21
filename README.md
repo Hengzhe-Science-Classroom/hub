@@ -15,6 +15,8 @@
 | Forces & Motion Intuition (Hewitt / Perelman) | Tier 1 · Foundation | [Open the App](https://hengzhe-science-classroom.github.io/HZ-forces-motion-intuition/) |
 | Mathematical Statistics (Casella & Berger / 陈希孺) | Tier 4 · Graduate | [Open the App](https://hengzhe-science-classroom.github.io/HZ-mathematical-statistics/) |
 | High School Chemistry (人教版) | Tier 2 · High School | [Open the App](https://hengzhe-science-classroom.github.io/HZ-high-school-chemistry/) |
+| Algebraic Topology (Hatcher) | Tier 5 · Research Frontier | [Open the App](https://hengzhe-science-classroom.github.io/HZ-algebraic-topology/) |
+| Functional Analysis (Rudin / Conway / Kreyszig) | Tier 5 · Research Frontier | [Open the App](https://hengzhe-science-classroom.github.io/HZ-functional-analysis/) |
 
 ## What Is This?
 
@@ -39,6 +41,8 @@ Every course features:
 | [HZ-forces-motion-intuition](https://github.com/Hengzhe-Science-Classroom/HZ-forces-motion-intuition) | Forces & Motion Intuition — Hewitt / Perelman (22 chapters, 85 visualizations, 152 exercises) |
 | [HZ-mathematical-statistics](https://github.com/Hengzhe-Science-Classroom/HZ-mathematical-statistics) | Mathematical Statistics — Casella & Berger / 陈希孺 (18 chapters, 96 visualizations, 248 exercises) |
 | [HZ-high-school-chemistry](https://github.com/Hengzhe-Science-Classroom/HZ-high-school-chemistry) | High School Chemistry — 人教版 (18 chapters, 108 visualizations, 321 exercises) |
+| [HZ-algebraic-topology](https://github.com/Hengzhe-Science-Classroom/HZ-algebraic-topology) | Algebraic Topology — Hatcher (19 chapters, 77 visualizations, 95 exercises) |
+| [HZ-functional-analysis](https://github.com/Hengzhe-Science-Classroom/HZ-functional-analysis) | Functional Analysis — Rudin / Conway / Kreyszig (20 chapters, ~200 visualizations, ~320 exercises) |
 
 ## 92 Courses Planned
 

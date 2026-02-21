@@ -21,7 +21,7 @@ en: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "8 courses live — 85 more planned",
+    "hero.badge": "9 courses live — 84 more planned",
     "hero.title1": "Hengzhe's",
     "hero.title2": "Science Classroom",
     "hero.subtitle": "From elementary curiosity to research frontiers — interactive, visualization-driven science education for everyone.",
@@ -253,7 +253,7 @@ en: {
     "tier5.math.2.title": "Differential Geometry",
     "tier5.math.2.author": "do Carmo",
     "tier5.math.3.title": "Functional Analysis",
-    "tier5.math.3.author": "Rudin",
+    "tier5.math.3.author": "Rudin / Conway / Kreyszig",
     "tier5.math.4.title": "Measure Theory",
     "tier5.math.4.author": "Folland",
     "tier5.math.5.title": "Algebraic Geometry",
@@ -364,7 +364,7 @@ zh: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "8门课程已上线 — 另有85门规划中",
+    "hero.badge": "9门课程已上线 — 另有84门规划中",
     "hero.title1": "恒哲的",
     "hero.title2": "科学教室",
     "hero.subtitle": "从童年好奇到科研前沿 — 面向所有人的交互式可视化科学教育。",
@@ -594,7 +594,7 @@ zh: {
     "tier5.math.2.title": "微分几何",
     "tier5.math.2.author": "do Carmo",
     "tier5.math.3.title": "泛函分析",
-    "tier5.math.3.author": "Rudin",
+    "tier5.math.3.author": "Rudin / Conway / Kreyszig",
     "tier5.math.4.title": "测度论",
     "tier5.math.4.author": "Folland",
     "tier5.math.5.title": "代数几何",
