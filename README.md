@@ -17,6 +17,9 @@
 | High School Chemistry (人教版) | Tier 2 · High School | [Open the App](https://hengzhe-science-classroom.github.io/HZ-high-school-chemistry/) |
 | Algebraic Topology (Hatcher) | Tier 5 · Research Frontier | [Open the App](https://hengzhe-science-classroom.github.io/HZ-algebraic-topology/) |
 | Functional Analysis (Rudin / Conway / Kreyszig) | Tier 5 · Research Frontier | [Open the App](https://hengzhe-science-classroom.github.io/HZ-functional-analysis/) |
+| Calculus (Stewart / Spivak) | Tier 3 · Undergraduate | [Open the App](https://hengzhe-science-classroom.github.io/HZ-calculus/) |
+| Real Analysis II (Rudin / Folland) | Tier 5 · Research Frontier | [Open the App](https://hengzhe-science-classroom.github.io/HZ-real-analysis-ii/) |
+| Algorithm Design & Analysis (CLRS / Kleinberg & Tardos) | Tier 4 · Graduate | [Open the App](https://hengzhe-science-classroom.github.io/HZ-algorithms/) |
 
 ## What Is This?
 
@@ -43,8 +46,11 @@ Every course features:
 | [HZ-high-school-chemistry](https://github.com/Hengzhe-Science-Classroom/HZ-high-school-chemistry) | High School Chemistry — 人教版 (18 chapters, 108 visualizations, 321 exercises) |
 | [HZ-algebraic-topology](https://github.com/Hengzhe-Science-Classroom/HZ-algebraic-topology) | Algebraic Topology — Hatcher (19 chapters, 77 visualizations, 95 exercises) |
 | [HZ-functional-analysis](https://github.com/Hengzhe-Science-Classroom/HZ-functional-analysis) | Functional Analysis — Rudin / Conway / Kreyszig (20 chapters, ~200 visualizations, ~320 exercises) |
+| [HZ-calculus](https://github.com/Hengzhe-Science-Classroom/HZ-calculus) | Calculus — Stewart / Spivak (20 chapters, 155 visualizations, 341 exercises) |
+| [HZ-real-analysis-ii](https://github.com/Hengzhe-Science-Classroom/HZ-real-analysis-ii) | Real Analysis II — Rudin / Folland (18 chapters, 116 visualizations, 283 exercises) |
+| [HZ-algorithms](https://github.com/Hengzhe-Science-Classroom/HZ-algorithms) | Algorithm Design & Analysis — CLRS / Kleinberg & Tardos (22 chapters, 143 visualizations, 374 exercises) |
 
-## 92 Courses Planned
+## 81 Courses Planned
 
 See the full roadmap on the [website](https://hengzhe-science-classroom.github.io/hub/#journey).
 
