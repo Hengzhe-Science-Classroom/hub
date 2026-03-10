@@ -21,7 +21,7 @@ en: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "14 courses live — 74 more planned",
+    "hero.badge": "16 courses live — 72 more planned",
     "hero.title1": "Hengzhe's",
     "hero.title2": "Science Classroom",
     "hero.subtitle": "From elementary curiosity to research frontiers — interactive, visualization-driven science education for everyone.",
@@ -366,7 +366,7 @@ zh: {
     "nav.github": "GitHub",
 
     // Hero
-    "hero.badge": "14门课程已上线 — 另有74门规划中",
+    "hero.badge": "16门课程已上线 — 另有72门规划中",
     "hero.title1": "恒哲的",
     "hero.title2": "科学教室",
     "hero.subtitle": "从童年好奇到科研前沿 — 面向所有人的交互式可视化科学教育。",
